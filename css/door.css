@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/2508.jpg');
+    background-size: cover;
+    font-family: "Passero One", sans-serif;
+    display:flex;
+    height: 100vh;
+    width:100%;
+    align-items:flex-end;
+    justify-content:center;
+}
+
+.p1 {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 2em;
+    width: 40vw;
+    height:20vh;
+    overflow: auto;
+    padding:10px;
+    border-radius: 50px 50px 50px 0px;
+}
+
+.p2 {
+    border: 2px solid black;
+    font-size: 2em;
+    width: 40vw;
+    height:20vh;
+    overflow: auto;
+    padding:10px;
+    border-radius: 50px 50px 0px 050px;
+    background-color:rgb(63, 175, 209);
+}
+
+.container {
+    display:flex;
+}
+
+.nextbtn {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.nextbtn {
+    text-decoration:none;
+    color: inherit;
+    height:40px;
+    font-size: 2em;  
+    transition: 0.3s;
+}
+
+.nextbtn:hover {
+    transform:scale(1.1);
+  
+}
+
+.notebook1 {
+    position: absolute;
+    bottom:50px;
+    right:300px;    
+    transition:0.3s;
+}
+
+.notebook1:hover {
+    transform: scale(1.1);
+
+}
